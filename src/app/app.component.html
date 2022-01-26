@@ -1,7 +1,7 @@
 <mat-sidenav-container>
   
   <mat-sidenav #sidenav>
-      <app-sidenavlist></app-sidenavlist>
+      <app-sidenavlist (closeSideNavigation)="sidenav.close()"></app-sidenavlist>
   </mat-sidenav>
 
   <mat-sidenav-content>
